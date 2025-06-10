@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">More actions
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 7 -  Displays</title>
+    <style>
+        .div-1 {
+            display: inline;
+            width: 200px;
+            height: 200px;
+            background-color: #dfa9a9;
+        }
+        .div-2 {
+            width: 200px;
+            height: 200px;
+            background-color: #a893cf;
+        }
+        p {
+            background-color: rgb(106, 179, 189);
+        }
+        b {
+            background-color: rgb(114, 160, 127);
+            width: 100px;
+            height: 200px;
+            display: inline-block;
+        }
+        img {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-1">
+        <h1>1</h1>
+        <h2>1.1</h2>
+    </div>
+    <div class="div-1">
+        <h1>1</h1>
+        <h2>1.1</h2>
+    </div>
+    <p>
+        <b>Um texto aqui:</b>
+        <img width="100px" src="https://saviynt.com/hubfs/google.png"/> 
+        <img width="100px" src="https://saviynt.com/hubfs/google.png"/> 
+        <img width="100px" src="https://saviynt.com/hubfs/google.png"/> 
+        <img width="100px" src="https://saviynt.com/hubfs/google.png"/> 
+
+        Awúre àwúre
+Bó kún súré àjàlá
+Òjísé t'ayó
+Olóri nşe èrò èrò
+    </p>
+    <div class="div-2">
+        <h1>2</h1>
+        <h2>2.1</h2>
+    </div>
+</body>
+</html>
